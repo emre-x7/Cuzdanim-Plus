@@ -1,0 +1,27 @@
+# .NET
+backend/bin/
+backend/obj/
+backend/**/*.user
+backend/**/*.suo
+backend/.vs/
+
+# Secrets
+backend/**/appsettings.json
+backend/**/appsettings.Development.json
+backend/**/appsettings.Production.json
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Future folders
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+app/node_modules/
+app/.env

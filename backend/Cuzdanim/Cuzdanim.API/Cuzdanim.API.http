@@ -1,0 +1,6 @@
+@Cuzdanim.API_HostAddress = http://localhost:5027
+
+GET {{Cuzdanim.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

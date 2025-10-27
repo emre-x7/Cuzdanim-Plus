@@ -1,0 +1,15 @@
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.csproj.AssemblyReference.cache
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.AssemblyInfoInputs.cache
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.AssemblyInfo.cs
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.csproj.CoreCompileInputs.cache
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\bin\Debug\net9.0\Cuzdanim.Application.deps.json
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\bin\Debug\net9.0\Cuzdanim.Application.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\bin\Debug\net9.0\Cuzdanim.Application.pdb
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\bin\Debug\net9.0\Cuzdanim.Domain.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\bin\Debug\net9.0\Cuzdanim.Domain.pdb
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.68FB5893.Up2Date
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\refint\Cuzdanim.Application.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\Cuzdanim.Application.pdb
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Application\obj\Debug\net9.0\ref\Cuzdanim.Application.dll

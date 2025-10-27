@@ -1,0 +1,11 @@
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\Cuzdanim.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\Cuzdanim.Domain.AssemblyInfoInputs.cache
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\Cuzdanim.Domain.AssemblyInfo.cs
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\Cuzdanim.Domain.csproj.CoreCompileInputs.cache
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\bin\Debug\net9.0\Cuzdanim.Domain.deps.json
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\bin\Debug\net9.0\Cuzdanim.Domain.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\bin\Debug\net9.0\Cuzdanim.Domain.pdb
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\Cuzdanim.Domain.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\refint\Cuzdanim.Domain.dll
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\Cuzdanim.Domain.pdb
+C:\Users\emreo\Desktop\CuzdanımPlus\backend\Cuzdanim\Cuzdanim.Domain\obj\Debug\net9.0\ref\Cuzdanim.Domain.dll

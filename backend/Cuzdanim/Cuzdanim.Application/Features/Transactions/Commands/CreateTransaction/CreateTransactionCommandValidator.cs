@@ -25,8 +25,8 @@ public class CreateTransactionCommandValidator : AbstractValidator<CreateTransac
             .IsInEnum().WithMessage("Geçerli bir para birimi seçiniz");
 
         RuleFor(x => x.TransactionDate)
-            .LessThanOrEqualTo(DateTime.UtcNow.AddDays(1))
-            .WithMessage("İşlem tarihi gelecekte olamaz");
+            .NotEmpty().WithMessage("İşlem tarihi zorunludur");
+        //.WithMessage("İşlem tarihi gelecekte olamaz");
 
         RuleFor(x => x.Description)
             .MaximumLength(500).WithMessage("Açıklama 500 karakterden uzun olamaz");

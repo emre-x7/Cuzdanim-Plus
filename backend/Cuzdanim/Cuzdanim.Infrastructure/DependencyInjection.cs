@@ -26,12 +26,15 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>((serviceProvider, options) =>
         {
             var dateTimeInterceptor = serviceProvider.GetRequiredService<DateTimeInterceptor>();
-
             options.UseNpgsql(
                 configuration.GetConnectionString("DefaultConnection"),
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
             .AddInterceptors(dateTimeInterceptor);
         });
+
+        //  IApplicationDbContext'i register et
+        services.AddScoped<IApplicationDbContext>(provider =>
+            provider.GetRequiredService<ApplicationDbContext>());
 
         // Unit of Work
         services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -44,7 +47,7 @@ public static class DependencyInjection
         services.AddScoped<IBudgetRepository, BudgetRepository>();
         services.AddScoped<IGoalRepository, GoalRepository>();
         services.AddScoped<IRecurringTransactionRepository, RecurringTransactionRepository>();
-        services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>(); 
+        services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 
         // Services
         services.AddScoped<ICategorySeederService, CategorySeederService>();

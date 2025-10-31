@@ -1,9 +1,10 @@
-﻿using Cuzdanim.Domain.Entities;
+﻿using Cuzdanim.Application.Common.Interfaces;
+using Cuzdanim.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cuzdanim.Infrastructure.Data.Context;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : DbContext, IApplicationDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
@@ -21,7 +22,6 @@ public class ApplicationDbContext : DbContext
     public DbSet<Family> Families => Set<Family>();
     public DbSet<FamilyMember> FamilyMembers => Set<FamilyMember>();
     public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
-
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

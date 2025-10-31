@@ -1,6 +1,5 @@
 ﻿using Cuzdanim.Domain.Common;
 using Cuzdanim.Domain.Enums;
-using System.Transactions;
 
 namespace Cuzdanim.Domain.Entities;
 
@@ -8,13 +7,13 @@ public class Category : BaseAuditableEntity
 {
     public Guid UserId { get; private set; }
     public string Name { get; private set; }
+    public TransactionType TransactionType { get; private set; } 
     public CategoryType Type { get; private set; }
     public string? Icon { get; private set; }
     public string? Color { get; private set; }
     public bool IsDefault { get; private set; }
     public bool IsActive { get; private set; } = true;
 
-    // Üst kategori (sub-category için)
     public Guid? ParentCategoryId { get; private set; }
 
     // İlişkiler
@@ -29,6 +28,7 @@ public class Category : BaseAuditableEntity
     public static Category Create(
         Guid userId,
         string name,
+        TransactionType transactionType, 
         CategoryType type,
         string? icon = null,
         string? color = null,
@@ -39,6 +39,7 @@ public class Category : BaseAuditableEntity
         {
             UserId = userId,
             Name = name,
+            TransactionType = transactionType, 
             Type = type,
             Icon = icon,
             Color = color,

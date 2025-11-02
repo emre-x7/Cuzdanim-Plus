@@ -275,3 +275,81 @@ frontend/
 🧪 Test Kullanıcısı (Development)
 Email: test.user@test.com
 Şifre: Test1234!
+```
+
+# 💻 Cüzdanım+ Web Uygulaması
+
+Bu bölümde, **Cüzdanım+** kişisel finans yönetimi platformunun web arayüzü sunulmaktadır. Proje, iyi yazılım mühendisliği prensiplerini yansıtarak, **.NET 9 (C#)** teknolojisi ve **Clean Architecture** mimarisi ile geliştirilmiştir.
+
+## 📱 Uygulama Akışlarının Görsel Sunumu
+
+Web uygulamamızın temel akışlarını ve kullanıcı arayüzü tasarımını aşağıda inceleyebilirsiniz. Görseller, projenin kapsamını ve kullanıcı deneyimi odaklı yaklaşımını göstermektedir.
+
+### 1. Giriş ve Hesap Yönetimi Akışları
+
+Giriş, kayıt ve temel hesap yönetimi formları.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/326a8ad7-844e-4eb1-a82e-09d0864c1951" width="700" alt="Kayıt Olma Sayfası">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e638ab80-abfc-48bc-9218-000ea29d6405" width="700" alt="Giriş Yapma Sayfası">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/785189c1-93ad-4b5b-9a67-dc09d8f73b11" width="850" alt="Tüm Finansal Hesapların Yönetimi Sayfası">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7ddc7774-b54e-4e2c-aece-8cb4e0a4a5a4" width="700" alt="Yeni Hesap Ekleme Formu">
+</p>
+
+---
+
+### 2. Ana Kontrol Paneli ve İşlem Akışı
+
+Uygulamanın ana ekranı, varlıkların özeti ve işlem takibi.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/654a60f1-8308-4b1b-9a48-4896031b54dd" width="900" alt="Ana Kontrol Paneli ve Özet Göstergeler">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f08830a9-4288-46c6-a264-34882574ae50" width="900" alt="Gelir ve Gider İşlemleri Geçmişi Sayfası">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8857f1f4-864a-4af1-be4a-6734e2104aaa" width="700" alt="Yeni İşlem Ekleme Formu">
+</p>
+
+---
+
+### 3. Bütçeler ve Finansal Hedefler
+
+Kullanıcıların uzun vadeli finansal planlama ve takibi.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5890ed09-ef74-4c79-b3f8-2114c762c1f7" width="900" alt="Bütçe Yönetimi ve Takip Sayfası">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0f2a1ca4-68f7-4c37-a925-1ae1e9a4d08d" width="700" alt="Yeni Bütçe Oluşturma Formu">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4a30c9e5-713c-4302-bf26-6fefed231f43" width="900" alt="Finansal Hedef Belirleme ve Takip Sayfası">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f829c6f-4c64-4c73-b360-7cb986169b0e" width="700" alt="Yeni Finansal Hedef Oluşturma Formu">
+</p>
+
+---
+
+### 4. Raporlar ve Analitik Görünümler
+
+Kullanıcının bilinçli finansal davranışlar geliştirmesini destekleyen analizler.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4154c320-848a-410c-8a88-de91739f7841" width="900" alt="Detaylı Harcama Dağılım Raporu">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2decf72-af1a-4824-b9e6-5ece257fb562" width="900" alt="Trend ve Karşılaştırma Analiz Raporu">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1a1d81a3-96a8-4aca-bca3-a169c33cfd71" width="900" alt="Gelir-Gider Akış Raporu">
+</p>
+

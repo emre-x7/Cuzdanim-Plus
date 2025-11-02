@@ -277,10 +277,6 @@ Email: test.user@test.com
 Şifre: Test1234!
 ```
 
-# 💻 Cüzdanım+ Web Uygulaması
-
-Bu bölümde, **Cüzdanım+** kişisel finans yönetimi platformunun web arayüzü sunulmaktadır. Proje, iyi yazılım mühendisliği prensiplerini yansıtarak, **.NET 9 (C#)** teknolojisi ve **Clean Architecture** mimarisi ile geliştirilmiştir.
-
 ## 📱 Uygulama Akışlarının Görsel Sunumu
 
 Web uygulamamızın temel akışlarını ve kullanıcı arayüzü tasarımını aşağıda inceleyebilirsiniz. Görseller, projenin kapsamını ve kullanıcı deneyimi odaklı yaklaşımını göstermektedir.

@@ -269,7 +269,6 @@ frontend/
 - Protected routes (token kontrolü)
 - Otomatik token refresh
 - XSS koruması (React default)
-- CSRF token (planlanan)
 
 ```
 🧪 Test Kullanıcısı (Development)
